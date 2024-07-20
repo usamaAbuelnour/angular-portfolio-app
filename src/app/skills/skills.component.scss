@@ -1,0 +1,30 @@
+.skills {
+  border: solid red;
+  background-color: #1d2837;
+}
+
+.myFocus-progress-Wrapper {
+  border: solid red;
+}
+.myFocus-progress-Wrapper > * {
+  border: solid green;
+}
+
+.progressWrapper {
+}
+
+.progress {
+//   border: solid red;
+  border-radius: 0;
+    .label {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: #959188;
+        width: 30%;
+    }
+  .progress-bar {
+    background-color: #dfdfdf;
+  }
+
+}

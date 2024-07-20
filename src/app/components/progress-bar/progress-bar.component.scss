@@ -1,0 +1,20 @@
+.wrapper {
+    // border: solid blue;
+    display: flex;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #959188;
+  width: 30%;
+  font-size: 1rem;
+}
+.progress {
+  border-radius: 0;
+  height: 5vh;
+  flex: 1;
+  .progress-bar {
+    background-color: #c4c4c4;
+  }
+}

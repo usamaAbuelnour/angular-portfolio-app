@@ -1,0 +1,12 @@
+<div class="porfolio">
+  <div class="container py-5">
+    <p class="h1">Portfolio</p>
+    <div class="portfolio-cards row row-cols-2 row-cols-lg-3 g-3 py-5 mx-4">
+      <app-portfolio-card
+        *ngFor="let field of fields; let index = index"
+        [field]="field"
+        [index]="index"
+      />
+    </div>
+  </div>
+</div>

@@ -1,1 +1,13 @@
-<p>progress-bar works!</p>
+<div class="wrapper">
+  <div class="label">{{ skill }}</div>
+  <div
+    class="progress"
+    role="progressbar"
+    aria-label="Example with label"
+    aria-valuenow="25"
+    aria-valuemin="0"
+    aria-valuemax="100"
+  >
+    <div class="progress-bar" [style.width.%]="percentage"></div>
+  </div>
+</div>

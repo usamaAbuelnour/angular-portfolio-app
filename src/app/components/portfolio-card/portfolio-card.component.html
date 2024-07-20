@@ -1,0 +1,11 @@
+<div
+  class="myCard border border-1 d-inline-block shadow rounded-1 d-flex justify-content-center align-items-center"
+  [style.backgroundColor]="index % 2 ? '#1d2837' : '#959188'"
+>
+  <div
+    class="cardText text-uppercase border-2 border-light p-1 text-light text-center"
+    [class.border-bottom]="index < 3"
+  >
+    {{ field }}
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.header {
+    height: 80vh;
+    background-image: url('/hero.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.header > * {
+    // border: solid red;
+}
+
+.info {
+    // border: solid green;
+    width: max-content;
+    text-align: center;
+}
